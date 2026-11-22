@@ -1,7 +1,7 @@
 @PointClass base(BaseEntityPoint)
 	iconsprite("editor/ficool2/light_dynamic.vmt") 
 	sphere(light_search_radius)
-= light_rt_controller: "An invisible omnidirectional realtime light-source."
+= env_light_controller: "An invisible omnidirectional realtime light-source."
 	[
 
 	light_search_radius(float) : "Light Search Radius" : 64 : "A radius in which to search for clustered lights"
